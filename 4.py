@@ -1,5 +1,5 @@
-ch=str(raw_input())
-if((ch>='a' and ch<= 'z') or (ch>='A' and ch<='Z')):
-	print("Alphabet")
+char=raw_input()
+if char.isalpha():
+   print("yes")
 else:
-	print("No")
+   print("no")
